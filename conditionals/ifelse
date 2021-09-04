@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#if else
+
+echo "Enter First Number"
+read a
+echo "Enter Second Number"
+read b
+
+# Using if-else
+if [ $a -gt $b ]
+then
+	echo "$a is Greater than $b"
+else
+	echo "$b is Greater than $a"
+fi

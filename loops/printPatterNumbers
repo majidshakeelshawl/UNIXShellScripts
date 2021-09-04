@@ -1,0 +1,13 @@
+#!/bin/sh
+
+#Numbers Pattern Using For Loop
+for(( i=1 ;j<=4; i++ ))
+do
+	count=0
+	for(( j=1 ;j<=$i; j++))
+	do
+		count=`expr $count + 1`
+		echo -n "$count"
+	done
+	echo " "
+done

@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# Factorial of a number
+echo -n "Enter number "
+read n
+point=$n
+
+#Special case for n = 0 as 0! = 1
+if  [ $n == 0  ]
+then echo "1"
+
+else
+
+while [ $point -gt 1 ]
+do
+  point=`expr $point - 1`
+  n=`expr $n \* $point`
+done
+echo "$n"
+
+fi

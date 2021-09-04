@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Function
+# function definition
+function add()
+{
+ echo "SUM = `expr $1 + $2`"
+}
+echo "Enter First Number"
+read x
+echo "Enter Second Number"
+read y
+
+# Function Call
+add $x $y
+
+

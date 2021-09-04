@@ -1,0 +1,15 @@
+#!/bin/sh
+
+#Fibonacci Series Of n Numbers
+echo -n "Enter End Point "
+read n
+f1=0
+f2=1
+while [ $n -ge 1 ]
+do
+	f3=`expr $f1 + $f2`
+	echo -n "$f3 "
+	f1=$f2
+	f2=$f3
+	n=`expr $n - 1`
+done

@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Case in Shell Script
+echo "Enter any Number Between 1 to 3"
+read choice
+
+case $choice in
+	1)
+		echo "Entered 1";;
+	2)
+		echo "Entered 2";;
+	3)
+		echo "Entered 3";;
+	*)
+		echo "Wrong Number";;
+	esac
+
