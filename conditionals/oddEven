@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Even : number % 2 == 0
+
+echo "Enter Number"
+read number
+
+# using expr to check the remainder after dividing it with 2
+if [ `expr $number % 2` == 0 ]
+then 
+echo "$number is a Even Number"
+else    
+echo "$number is a Odd Number"
+fi
