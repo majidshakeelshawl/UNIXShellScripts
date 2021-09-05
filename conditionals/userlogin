@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Objective: Small Program, Which has Predefined Username and Password
+
+echo "Welcome To School Management System \n Enter Your Details"
+echo "Enter Username"
+read userName
+echo "Enter Password"
+read password
+
+if [ $password  == "Home" -a $userName == "Student" ]
+then echo -n "You Are Logged In"
+else
+	echo -n "Check Your Details"
+fi
+
