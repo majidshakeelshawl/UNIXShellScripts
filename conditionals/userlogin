@@ -3,9 +3,9 @@
 # Objective: Small Program, Which has Predefined Username and Password
 
 echo "Welcome To School Management System \n Enter Your Details"
-echo "Enter Username"
+echo "Enter Your Username"
 read userName
-echo "Enter Password"
+echo "Enter Your Password"
 read password
 
 if [ $password  == "Home" -a $userName == "Student" ]
