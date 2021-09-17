@@ -16,7 +16,7 @@ echo "$a-$b: $sub"
 div=`expr $a / $b`
 echo "$a/$b: $div"
 # Multiplication
-# Always use \ with *
+# Always use \ with * to ensure multiplication happens
 mul=`expr $a \* $b`
 echo "$a*$b: $mul"
 # Modulus
