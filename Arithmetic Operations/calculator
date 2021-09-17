@@ -23,7 +23,7 @@ modulo=`expr $a % $b`
 echo "$a%$b: $modulo"
 
 # Using if-else in shell scripts
-if [ $a == $b ]
+if [ $a -eq  $b ]
 then 
 	echo "$a is equal to $b"
 else
