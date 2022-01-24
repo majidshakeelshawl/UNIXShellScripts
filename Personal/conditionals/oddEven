@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Even : number % 2 == 0
-
+# 2,4,8 are exapmles of even numbers.
 echo "Enter Number"
 read number
 
