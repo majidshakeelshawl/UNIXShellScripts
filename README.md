@@ -1,8 +1,8 @@
 ﻿#UNIXShellScripts
 
-Author : Majid Shakeel
+Here are the Scripts i write in Shell Programming on Linux.
 
-Here are the Scripts i write in Shell Programming on Linux for Different Shells.
+##This Repository is Open, anyone interested can contribute to this.
 
-This Repository is Open, anyone interested can contribute to this.
- 
+Just Clone and Make Pull Requests.
+
