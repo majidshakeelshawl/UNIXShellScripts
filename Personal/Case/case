@@ -12,6 +12,5 @@ case $choice in
 	3)
 		echo "Entered 3";;
 	*)
-		echo "Wrong Number";;
+		echo "You Choosed A Number Not In Our Options.";;
 	esac
-
