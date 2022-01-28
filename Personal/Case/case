@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Case in Shell Script
 echo "Enter any Number Between 1 to 3"
