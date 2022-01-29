@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Get arguments as array
+args=("$@")
+#Print the arguments
+echo 'The Arguments are: ' $@
+#Get the number of arguments passed.
+echo 'Number of Arguments Passed are: ' $#
