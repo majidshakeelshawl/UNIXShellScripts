@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #Numbers Pattern Using For Loop
 for(( i=1 ;j<=4; i++ ))
