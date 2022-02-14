@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Factorial of a number
 echo -n "Enter number "
