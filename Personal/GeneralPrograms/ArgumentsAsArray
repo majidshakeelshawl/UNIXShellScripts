@@ -2,7 +2,12 @@
 
 #Get arguments as array
 args=("$@")
+
 #Print the arguments
 echo 'The Arguments are: ' $@
+
 #Get the number of arguments passed.
 echo 'Number of Arguments Passed are: ' $#
+
+#Print the arguments passed and stored to array one by one
+echo "Argument1: ${args[0]}  Argument2: ${args[1]}"
