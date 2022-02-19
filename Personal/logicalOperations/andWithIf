@@ -1,0 +1,9 @@
+#!/bin/bash
+echo -n  "Enter Your Age: "
+read age
+if [[ age -gt 18 ]] && [[ age -le 33 ]]
+then
+	echo "Congrats You Can Take This Ride!"
+else
+	echo "Ride Is Not Available for You :("
+fi
