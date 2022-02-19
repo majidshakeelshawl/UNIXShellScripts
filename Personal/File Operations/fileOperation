@@ -1,0 +1,15 @@
+#!/bin/bash
+echo -n "Enter File Name: "
+read fileName
+
+if [[ -e $fileName  ]]
+then
+	if [[ -w $fileName ]]
+	then
+	       	echo "$fileName Exists and You have write access also"
+	else
+		echo "$fileName Exists but You don't have write access to it"
+	fi
+else
+	echo "$fileName does not Exist"
+fi
