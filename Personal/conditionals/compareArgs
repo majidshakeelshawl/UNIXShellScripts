@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#Take the two strings as arguments
+firstString=$1
+secondString=$2
+
+if [[ $# == 0 ]]
+then
+	echo "Please Pass Two Strings To Compare  as Arguments"
+	exit
+fi
+
+if [[ $firstString == $secondString ]]
+then
+	echo "Strings are Equal"
+else
+	echo "Strings are not Equal"
+fi
