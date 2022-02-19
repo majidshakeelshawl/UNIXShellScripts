@@ -1,0 +1,12 @@
+#!/bin/bash
+echo -n  "Enter Epass Code: "
+read epass
+echo -n "Enter Unique Code: "
+read ucode
+
+if [[ $epass == 10 ]] || [[ $ucode == 10 ]]
+then
+	echo "You are authorized to enter this place"
+else
+	echo "None of your credentials matched, You are not authorized to enter this place"
+fi
