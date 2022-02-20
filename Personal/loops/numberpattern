@@ -1,0 +1,7 @@
+#!/bin/bash
+count=0
+while [[ count -le 8 ]]
+do
+	echo "${count}"
+	(( count++ ))
+done
