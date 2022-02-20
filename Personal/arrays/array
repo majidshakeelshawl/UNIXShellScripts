@@ -1,0 +1,5 @@
+#!/bin/bash
+# Simple 1D Array are supported
+things=('Desktop' 'Smartphone' 'Smart TV')
+echo "Thins: ${things[@]}"
+echo "Number Of Things: ${#things[@]}"
