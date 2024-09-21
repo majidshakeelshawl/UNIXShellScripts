@@ -1,11 +1,20 @@
 #!/usr/bin/bash
 
 # Check if file exists
-if [ -e "$1" ]
+if [ -f "$1" ]
 then
- echo "File $1 exists"
- echo "############### Printing Content ###############"
- cat $1
+    echo "File $1 exists"
+    sleep 1
+    echo "############### Printing Content of the file ###############"
+    sleep 1
+    cat $1
+elif [ -d "$1" ]
+then
+    echo "$1 is a directory"
+    sleep 1
+    echo "############### Printing Content of the directory ###############"
+    sleep 1
+    ls -l $1
 else
- echo "File $1 doesn't exist"
+    echo "$1 is neither a file nor a directory"
 fi
