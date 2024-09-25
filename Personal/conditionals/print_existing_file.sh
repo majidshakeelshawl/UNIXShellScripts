@@ -1,6 +1,9 @@
 #!/usr/bin/bash
 
-# Check if file exists
+# Note: This script supports only one file or directory at a time.
+
+if [[ $# -eq 1 ]]
+then
 if [ -f "$1" ]
 then
     echo "File $1 exists"
@@ -17,4 +20,7 @@ then
     ls -l $1
 else
     echo "$1 is neither a file nor a directory"
+fi
+else
+    echo "Script must contain the name of file or directory as an argument"
 fi
