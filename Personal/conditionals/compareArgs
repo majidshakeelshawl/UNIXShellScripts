@@ -16,3 +16,11 @@ then
 else
 	echo "Strings are not Equal"
 fi
+
+# Check if firstString variable is a substring of a string.
+key="Servers use Linux"
+if [[ $key == *"$firstString"* ]];then
+	echo "Yes, firstString variable is the substring of key"
+else
+	echo "No, firstString variable is not the substring of key"
+fi
